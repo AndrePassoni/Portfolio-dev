@@ -37,18 +37,19 @@ header {
     border: 3px solid var(--red);
     padding: 3px;
     border-radius: 50%;
+    
+    object-fit: cover; 
 }
 
 .code-icon {
     position: absolute;
-    bottom: 0px;
-    right: 0px;
+    bottom: -5px;
+    right: -5px;
     
     width: 32px;
     height: 32px;
     
     background-color: var(--gray-500); 
-    
     border-radius: 50%;
     
     z-index: 10;
@@ -102,7 +103,7 @@ header {
 
 .header-tag:hover {
     transform: translateY(-5px);
-    background-color: var(--gray-500);
+    background-color: var(--gray-600);
 }
 
 .header-tag p {
@@ -117,7 +118,6 @@ header {
     width: 24px;
     height: 24px;
     background-color: var(--gray-200);
-    
     -webkit-mask-size: contain;
     mask-size: contain;
     -webkit-mask-repeat: no-repeat;
