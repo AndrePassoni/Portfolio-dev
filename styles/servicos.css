@@ -1,0 +1,30 @@
+.servicos {
+    background-color: var(--gray-600);
+    width: 100%;
+    position: relative;
+    display: grid;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+
+.cards-servicos {
+    display: grid;
+    grid-template-areas: 
+    "card-servicos-1 card-servicos-2 card-servicos-3";
+    gap: 24px;
+}
+
+.card-servicos {
+    width: 280px;
+    height: 155px;
+    border: 2px solid var(--gray-500);
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.img-cards-servicos {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 20px;
+}
